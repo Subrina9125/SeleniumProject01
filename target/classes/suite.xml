@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "SeleniumProject01">
+
+   <test name = "LoginModule">
+      <classes>
+         <class name = "com.bitm.SeleniumProject01.Test01.LoginTest" />
+      </classes>
+   </test>
+   
+   <test name = "AssignLeaveModule">
+      <classes>
+         <class name = "com.bitm.SeleniumProject01.Test01.AssignLeave" />
+      </classes>
+   </test>
+   
+</suite>
